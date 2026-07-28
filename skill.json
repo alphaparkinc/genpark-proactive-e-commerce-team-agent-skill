@@ -1,0 +1,31 @@
+{
+  "name": "genpark-proactive-e-commerce-team-agent-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Goal-driven proactive AI team agent for e-commerce store operations and inventory management.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "e-commerce-team",
+    "proactive-agent",
+    "store-operations",
+    "ph-july29"
+  ],
+  "inputs": {
+    "store_metrics": {
+      "type": "object"
+    },
+    "goal_target": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "team_actions": {
+      "type": "array"
+    },
+    "projected_mrr_boost_pct": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
